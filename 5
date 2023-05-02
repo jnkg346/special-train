@@ -1,0 +1,7 @@
+$string = "The quick brown fox jumps over the lazy dog.";
+
+if ($string =~ m/quick\s(brown).+?(jumps)/) {
+    print "Found: $1, $2\n";
+} else {
+    print "Not found\n";
+}
